@@ -1,0 +1,54 @@
+$ git log
+commit a5df47dcc697e118a84284d86eacfa4e2bdb8a2e (HEAD -> main, origin/main, origin/HEAD)
+Author: adilioaquino <aquino.adilio@gmail.com>
+Date:   Sun Feb 20 19:30:36 2022 -0300
+
+    inclusão de imagem que mostra os conceitos do git
+
+commit de1e76a8939e7e328ffc51d54af4bab8b8900589
+Author: adilioaquino <aquino.adilio@gmail.com>
+Date:   Sun Feb 20 18:50:02 2022 -0300
+
+    inclusão de anotações do curso git/github
+
+commit 18d72f0f7d4536dddc1a914487e7a802c287b4a2
+Author: adilioaquino <37349613+adilioaquino@users.noreply.github.com>
+Date:   Sun Feb 20 15:23:06 2022 -0300
+
+    Update README.md
+
+commit abbdf6366206e796729838a82fcf2f9699215959
+Author: adilioaquino <37349613+adilioaquino@users.noreply.github.com>
+Date:   Sun Feb 20 12:46:18 2022 -0300
+
+    Initial commit
+
+Adilio Aquino@DESKTOP-K7S26PR MINGW64 ~/Documents/DEV/GIT/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git log -p -2
+commit a5df47dcc697e118a84284d86eacfa4e2bdb8a2e (HEAD -> main, origin/main, origin/HEAD)
+Author: adilioaquino <aquino.adilio@gmail.com>
+Date:   Sun Feb 20 19:30:36 2022 -0300
+
+    inclusão de imagem que mostra os conceitos do git
+
+diff --git a/Imagem de comandos do Git/comandos_git.jpg b/Imagem de comandos do Git/comandos_git.jpg
+new file mode 100644
+index 0000000..d606f08
+Binary files /dev/null and b/Imagem de comandos do Git/comandos_git.jpg differ
+
+commit de1e76a8939e7e328ffc51d54af4bab8b8900589
+Author: adilioaquino <aquino.adilio@gmail.com>
+Date:   Sun Feb 20 18:50:02 2022 -0300
+
+    inclusão de anotações do curso git/github
+
+diff --git "a/Introdu\303\247\303\243o ao Git e o ao Github/Anota\303\247\303\265es e dicas.txt" "b/Introdu\303\247\303\243o ao Git e o ao Github/Anota\303\247\303\265es e dicas.txt"
+new file mode 100644
+index 0000000..60fdab9
+--- /dev/null
++++ "b/Introdu\303\247\303\243o ao Git e o ao Github/Anota\303\247\303\265es e dicas.txt"     
+@@ -0,0 +1 @@
++Estudar o Markdown, segue o link para estudos:https://markdown.net.br/sintaxe-basica/
+
+Adilio Aquino@DESKTOP-K7S26PR MINGW64 ~/Documents/DEV/GIT/DIO/dio-desafio-github-primeiro-repositorio (main)
+$
